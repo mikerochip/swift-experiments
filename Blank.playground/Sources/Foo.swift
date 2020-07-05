@@ -1,7 +1,6 @@
 import Foundation
 
-public struct Foo: CustomStringConvertible
-{
+public struct Foo: CustomStringConvertible {
     let formatStr = "Answer to life is %d"
     var someInt:Int
     
