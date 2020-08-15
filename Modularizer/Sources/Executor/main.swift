@@ -2,8 +2,8 @@ import Foo
 import Bar
 import FisherYates
 
-if random(2) == 0 {
-    print(Foo.Greeter().text)
-} else {
-    print(Bar.Greeter().text)
-}
+let greeting = (random(2) == 0)
+    ? Foo.Greeter().text
+    : Bar.Greeter().text
+
+print(greeting)
